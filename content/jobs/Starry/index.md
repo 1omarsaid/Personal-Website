@@ -1,9 +1,9 @@
 ---
-date: '2016-12-21'
-title: 'Software Engineer Co-op'
-company: 'Starry'
-location: 'Boston, MA'
-range: 'July - December 2016'
+date: '2020-05-15'
+title: 'Full Stack Developer'
+company: 'Avaya'
+location: 'Toronto, Canada'
+range: 'May - Present'
 url: 'https://starry.com/'
 ---
 

@@ -2,6 +2,9 @@ import React, { useEffect, useRef } from 'react';
 import styled from 'styled-components';
 import { srConfig, email } from '@config';
 import sr from '@utils/sr';
+// import { photo, photos } from '../../../content/images'
+// import Gallery from "react-photo-gallery";
+import './sections.css';
 
 const StyledContactSection = styled.section`
   max-width: 600px;
@@ -45,18 +48,24 @@ const Contact = () => {
   useEffect(() => sr.reveal(revealContainer.current, srConfig()), []);
 
   return (
-    <StyledContactSection id="contact" ref={revealContainer}>
-      <h2 className="title">Let's Chat!</h2>
+    <div>
+      {/* <div className="gallery">
+        <Gallery photos={photo} />
+      </div> */}
 
-      <p>
-        Although I'm not currently looking for any new opportunities, my inbox is always open.
-        Whether you have a question or just want to say hi, I'll try my best to get back to you!
-      </p>
+      <StyledContactSection id="contact" ref={revealContainer}>
+        <h2 className="title">Let's Chat!</h2>
 
-      <a className="email-link" href={`mailto:${email}`}>
-        Say Hello
-      </a>
-    </StyledContactSection>
+        <p>
+          Although I'm not currently looking for any new opportunities, my inbox is always open.
+          Whether you have a question or just want to say hi, I'll try my best to get back to you!
+        </p>
+
+        <a className="email-link" href={`mailto:${email}`}>
+          Say Hello
+        </a>
+      </StyledContactSection>
+    </div>
   );
 };
 

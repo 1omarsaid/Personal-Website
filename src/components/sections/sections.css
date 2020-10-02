@@ -1,0 +1,7 @@
+.gallery .react-photo-gallery--gallery div img:hover {
+  transform: scale(1.05);
+}
+
+.gallery .react-photo-gallery--gallery div img {
+  transition: transform 0.2s;
+}

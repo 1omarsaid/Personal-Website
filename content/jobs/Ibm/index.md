@@ -1,10 +1,10 @@
 ---
-date: '2017-12-21'
-title: 'UI Engineer Co-op'
-company: 'Apple'
-location: 'Cupertino, CA'
-range: 'July - December 2017'
-url: 'https://www.apple.com/music/'
+date: '2018-05-1'
+title: 'Software Engineer'
+company: 'IBM'
+location: 'Markham, Canada'
+range: 'May - December 2018'
+url: 'https://www.ibm.com/ca-en'
 ---
 
 - Developed and shipped highly interactive web applications for Apple Music using Ember.js

@@ -165,7 +165,7 @@ const GlobalStyle = createGlobalStyle`
 
   section {
     margin: 0 auto;
-    padding: 100px 0;
+    padding: 75px 0;
     max-width: 1000px;
 
     @media (max-width: 768px) {
@@ -247,18 +247,18 @@ const GlobalStyle = createGlobalStyle`
     }
   }
 
-  img,
-  svg,
-  .gatsby-image-wrapper {
-    width: 100%;
-    max-width: 100%;
-    vertical-align: middle;
-  }
+  // img,
+  // svg,
+  // .gatsby-image-wrapper {
+  //   width: 100%;
+  //   max-width: 100%;
+  //   vertical-align: middle;
+  // }
 
-  img[alt=""],
-  img:not([alt]) {
-    filter: blur(5px);
-  }
+  // img[alt=""],
+  // img:not([alt]) {
+  //   filter: blur(5px);
+  // }
 
   svg {
     width: 100%;

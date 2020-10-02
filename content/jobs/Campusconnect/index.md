@@ -1,9 +1,9 @@
 ---
-date: '2018-04-01'
-title: 'Studio Developer'
-company: 'Scout'
+date: '2019-06-01'
+title: 'Senior Mobile Developer'
+company: 'Campus Connect'
 location: 'Northeastern University'
-range: 'January - April 2018'
+range: 'June - March 2020'
 url: 'https://web.northeastern.edu/scout/'
 ---
 
