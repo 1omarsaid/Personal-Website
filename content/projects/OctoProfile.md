@@ -1,13 +1,12 @@
 ---
-date: '2019-07-15'
-title: 'OctoProfile'
-github: 'https://github.com/bchiang7/octoprofile'
-external: 'https://octoprofile.now.sh'
+date: '3'
+title: 'Covid-19 Tracker'
+github: 'https://github.com/1omarsaid/covid-tracker'
+external: 'https://omar-covid-tracker.web.app/'
 tech:
-  - Next.js
-  - Chart.js
-  - GitHub API
-showInProjects: false
+  - React JS
+  - disease.sh
+showInProjects: true
 ---
 
-A nicer look at your GitHub profile and repo stats. Includes data visualizations of your top languages, starred repositories, and sort through your top repos by number of stars, forks, and size.
+A nice way to view statistical data of covid-19 cases, deaths and recovered.

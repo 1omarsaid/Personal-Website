@@ -1,16 +1,15 @@
 ---
 date: '1'
-title: 'Halcyon Theme'
-cover: './halcyon.png'
-github: 'https://github.com/bchiang7/halcyon-site'
-external: 'https://halcyon-theme.netlify.com/'
+title: 'Smart Detection'
+cover: './demo.png'
+github: 'https://github.com/1omarsaid/facerecognitionapp'
+external: 'https://face-detection2020.herokuapp.com/'
 tech:
-  - VS Code
-  - Sublime Text
-  - Atom
-  - iTerm2
-  - Hyper
+  - React Js
+  - PostgreSQL
+  - bcrypt
+  - Clarifai
 showInProjects: true
 ---
 
-A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more. Available on [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=brittanychiang.halcyon-vscode), [Package Control](https://packagecontrol.io/packages/Halcyon%20Theme), [Atom Package Manager](https://atom.io/themes/halcyon-syntax), and [npm](https://www.npmjs.com/package/hyper-halcyon-theme).
+A web application that analyzes images and draws squares around faces that get detected. This app stores user's information (Username, email and number of faces detected) in a postgresql database.

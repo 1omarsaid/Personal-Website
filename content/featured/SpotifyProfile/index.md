@@ -1,15 +1,15 @@
 ---
 date: '2'
-title: 'Spotify Profile'
+title: 'Netflix Clone'
 cover: './demo.png'
-github: 'https://github.com/bchiang7/spotify-profile'
-external: 'https://spotify-profile.herokuapp.com/'
+github: 'https://github.com/1omarsaid/netflix-clone'
+external: 'https://omar-netflix-clone.web.app/'
 tech:
   - React
   - Node.js
-  - Express
-  - Spotify Web API
+  - react-youtube
+  - IMDB API
 showInProjects: true
 ---
 
-A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.
+A clone version of netflix.com, it fetches movies and its information (title, description, ratings and youtube trailer) in a visually appealing manner.
